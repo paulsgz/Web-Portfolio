@@ -96,7 +96,7 @@ const Skills = () => {
   useEffect(() => {
     setSkills(data);
     setFilterWork(data);
-  }, [data]);
+  }, []);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
@@ -118,7 +118,6 @@ const Skills = () => {
 
   return (
     <>
-      {/* <div className='absolute'></div> */}
       <h2>My Skills</h2>
       <div className="app__work-filter">
       {['Front-end', 'Back-end', 'Developer Tools','All'].map((item, index) => (
