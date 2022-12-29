@@ -1,0 +1,121 @@
+.ProjectContainer {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.ProjectNav {
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    width: 100vw;
+}
+.container2 {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+.project02 {
+    width: 100%;
+    height: 100%;
+}
+.projectVideo2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.SpaceVid {
+    margin-top: 50px;
+    box-shadow:0px 0px 0px 12px black inset;
+    margin-bottom:20px;
+    border: 5px solid black;
+    border-radius: 12px;
+    box-shadow: 3px 5px 8px lightslategray;
+    cursor: pointer;
+}
+.projectDescription2 {
+    padding-top:100px ;
+    height: 100%;
+
+    h2{
+        font-family: 'Unbounded', sans-serif !important;
+        font-weight: bold;
+        font-size: 65px;
+        padding-left:100px;
+        padding-right: 100px;
+    }
+    h5{
+        font-weight: bold;
+        margin-top: 30px;
+        padding-left:100px;
+        padding-right: 100px;
+    }
+    p{
+        margin-top: 10px;
+        padding-left:100px;
+        padding-right: 100px;   
+    }
+}
+@media screen and (max-height: 720px) { 
+    .projectVideo2 {
+         padding-top:60px ;
+    }
+}
+@media screen and (max-height: 685px) { 
+    .projectVideo2 {
+        padding-top: 800px;
+    }
+}
+@media screen and (max-height: 585px) { 
+    .projectVideo2 {
+        padding-top: 120px;
+    }
+}
+@media screen and (max-width: 1200px) { 
+    .projectVideo2 {
+        height: 50%;
+        .SpaceVid {
+            margin-top: 0px;
+        }
+  
+    }
+}
+@media screen and (max-width: 800px) { 
+    .projectDescription2 {
+        padding-top:50px ;
+        height: 100%;
+    
+        h2{
+            font-family: 'Unbounded', sans-serif !important;
+            font-weight: bold;
+            font-size: 55px;
+            padding-left:20px;
+            padding-right: 10px;
+        }
+        h5{
+            font-weight: bold;
+            margin-top: 30px;
+            padding-left:20px;
+            padding-right: 10px;
+        }
+        p{
+            margin-top: 10px;
+            padding-left:20px;
+            padding-right: 10px;   
+        }
+    }
+}
+@media screen and (max-width: 400px) { 
+    .projectVideo2 {
+        height: 100%;
+        padding-top: 220px;
+        .SpaceVid {
+            margin-top: 0px;
+        }
+  
+    }
+}

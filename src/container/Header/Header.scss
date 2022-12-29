@@ -1,0 +1,218 @@
+
+.home{
+    --z: 0px;  /* control the zig-zag  */
+    --s: 100vh; /* control the size */
+    --g: 0px;   /* control the gap */
+    
+    display: grid;
+    gap: var(--g);
+    // width: calc(2*var(--s) + var(--g));
+    width: 100%;
+    grid-auto-flow: column;
+    z-index: 9;
+  }
+  .home> div {
+    width: 0;
+    min-width: calc(100% + var(--z)/2);
+    height: var(--s);
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s ease-out;
+    z-index: 9;
+  }
+  .home> div:hover {
+    width: calc(var(--s)/3);
+  }
+  .home> div:first-child {
+    place-self: start;
+    clip-path: polygon(calc(2*var(--z)) 0,100% 0,100% 100%,0 100%);
+    background-color: #00203FFF;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      a{
+        color: white;
+      }
+  }
+  .home> div:last-child {
+    place-self: end;
+    clip-path: polygon(0 0,100% 0,calc(100% - 2*var(--z)) 100%,0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ADEFD1FF;
+    a{
+      color: white;
+      margin-top: 60px;
+    }
+  }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid; 
+    place-content: center;
+  }
+  .aboutMePic {
+    height: 55%;
+    width: 55%;
+  }
+  .SeeProjectPic {
+    height: 80%;
+    width: 80%;
+  }
+  .Intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+      color: white;
+      font-size: 100px;
+      font-weight: bold;
+      text-align: center;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    p{
+      color: white;
+      font-size: large;
+      text-align: center;
+    }
+  }
+  .Intro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 10px;
+    h4{
+      color: dark blue($color: #000000);
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .LinksToAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      margin-left: 10px;
+    }
+  }
+  @media screen and (max-width:1200px) {
+    .Intro {
+      h1{
+        font-size: 80px;
+      }
+    }
+    .Intro2 {
+      h4{
+        font-size: 15px;
+      }
+    }
+    .home> div:hover {
+      width: calc(var(--s)/6);
+    }
+  }
+  @media screen and (max-width:870px) {
+    .Intro {
+      h1{
+        font-size: 60px;
+    }
+    p{
+      font-size: medium;
+    }
+  }
+    .Intro2 {
+      h4{
+        font-size: 15px;
+    }
+    .home> div:hover {
+      width: calc(var(--s)/7);
+    }
+  }
+}
+@media screen and (max-width:670px) {
+  .Intro {
+    h1{
+      font-size: 40px;
+  }
+  p{
+    font-size: small;
+  }
+}
+  .Intro2 {
+    h4{
+      font-size: 13px;
+  }
+}
+.home> div:hover {
+  width: calc(var(--s)/8);
+}
+}
+@media screen and (max-width:570px) {
+  .Intro {
+    h1{
+      font-size: 30px;
+  }
+  p{
+    font-size: x-small;
+  }
+}
+  .Intro2 {
+    h4{
+      font-size: 11px;
+  }
+  .home> div:hover {
+    width: calc(var(--s)/11);
+  }
+}
+.LinksToAbout {
+  a {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+.home> div:last-child {
+  .projectLink{
+    font-size: 10px;
+    margin-top: 30px;
+  }
+  }
+}
+@media screen and (max-width:370px) {
+  .Intro {
+    h1{
+      font-size: 22px;
+  }
+  p{
+    font-size: x-small;
+  }
+}
+  .Intro2 {
+    h4{
+      font-size: 10px;
+  }
+  .home> div:hover {
+    width: calc(var(--s)/11);
+  }
+}
+.LinksToAbout {
+  a {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+.home> div:last-child {
+  .projectLink{
+    font-size: 10px;
+    margin-top: 30px;
+  }
+  }
+}

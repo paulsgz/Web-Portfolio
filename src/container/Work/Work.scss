@@ -1,0 +1,604 @@
+@font-face {
+  font-family: Unbounded;
+  src: url('../../assets/Unbounded-SemiBold.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Condensed;
+  src: url('../../assets/Roboto-Light.ttf');
+  font-weight: 50;
+}
+
+.app__works {
+    flex: 1;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .app__work-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    margin: 4rem 0 2rem;
+  
+    .app__work-filter-item {
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      background-color: #fff;
+      color: #000;
+      font-weight: 800;
+  
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin: 0.5rem;
+  
+      &:hover {
+        background-color: var(--secondary-color);
+        color: #fff;
+      }
+  
+      @media screen and (min-width: 2000px) {
+        padding: 1rem 2rem;
+        border-radius: 0.85rem;
+      }
+    }
+  
+    .item-active {
+      background-color: var(--secondary-color);
+      color: #fff;
+    }
+  }
+  .app__work-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.project1{
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+.description{
+  height:650px;
+  padding-top: 40px;
+  color: black;
+  h2 {
+    font-family: 'Unbounded', sans-serif !important;
+    font-size: 70px;
+    cursor: pointer;
+    color: black;
+  }
+  p{
+    font-family: 'Condensed', sans-serif !important;
+    font-size: 18px;
+    font-weight: 100;
+     margin-top: 30px;
+  }
+  .descrip {
+    font-family: 'Roboto', sans-serif !important;
+    padding-right: 90px !important;
+    font-size: 24px;
+    margin-top: 55px;
+    letter-spacing: 2.5px;
+  }
+  h5 {
+    margin-top: 40px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.projectImage {
+  min-width: 50%;
+  height:650px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+  overflow: hidden;
+} 
+.HomeVideo {
+  width: 100%;
+  box-shadow:0px 0px 0px 12px black inset;
+  margin-bottom:20px;
+  border: 5px solid black;
+  border-radius: 12px;
+  box-shadow: 3px 5px 8px lightslategray;
+  cursor: pointer;
+}
+
+.project2{
+  max-width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.description2{
+  height:650px;
+  padding-top: 50px;
+  color: black;
+  z-index: 1;
+  h2 {
+    font-family: 'Unbounded', sans-serif !important;
+    font-size: 70px;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+  p{
+    font-family: 'Condensed', sans-serif !important;
+    font-size: 18px;
+    font-weight:lighter;
+     margin-top: 30px;
+     padding-left: 30px;
+  }
+  .descrip {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 24px;
+    margin-top: 55px;
+    letter-spacing: 2.5px;
+    padding-left: 30px;
+    
+  }
+  h5 {
+    margin-top: 40px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+}
+.projectImage2 {
+  min-width: 50%;
+  height:650px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+} 
+.firstline{
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  color:black;
+}
+.newline {
+  background-color: black;
+  width: 100%;
+  height: 1px;
+}
+.iphoneVid{
+  width: 100%;
+  height: 600px;
+  cursor: pointer;
+  position: absolute;
+  z-index: -1;
+  border-radius: 20px;
+  margin-top: 0px;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: 100%;
+}
+.GoTo{
+  text-decoration: none;
+  color: black;
+}
+.GoTo:hover {
+    color: rgb(102, 102, 102);
+  }
+
+.Github{
+  text-decoration: none;
+  color: black;
+}
+.Github:hover {
+  color: rgb(102, 102, 102);
+}
+.SeeMore {
+  text-decoration: none;
+  color: black;
+}
+.SeeMore:hover {
+  color: black;
+}
+.SeeMore:hover .arrow{
+  transform: translateX(2px);
+  transition: 0.4s;
+  color: black;
+}
+@media screen and (max-width: 1720px) {
+  .project1{
+    .description{
+      h2 {
+        font-size: 60px;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 27px;
+      }
+      .descrip {
+        padding-right: 70px !important;
+        font-size: 20px;
+        margin-top: 55px;
+        letter-spacing: 2px;
+      }
+      h5 {
+        margin-top: 40px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  }
+}
+.project2{
+  .description2{
+    h2 {
+      font-size: 60px;
+    }
+    p{
+      font-size: 16px;
+      font-weight: 100;
+      margin-top: 27px;
+    }
+    .descrip {
+      padding-right: 70px !important;
+      font-size: 20px;
+      margin-top: 55px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+}
+.iphoneVid{
+  width: 100%;
+  height: 550px;
+}
+}
+@media screen and (max-width: 1600px) {
+  .iphoneVid{
+    width: 100%;
+    height: 510px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .project1{
+    margin-top: 20px;
+    height: 460px;
+    .description{
+      h2 {
+        font-size: 50px;
+        margin-top: 0px;
+      }
+      p{
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: 17px;
+      }
+      .descrip {
+        padding-right: 30px !important;
+        font-size: 16px;
+        margin-top: 35px;
+        letter-spacing: 2px;
+      }
+      h5 {
+        margin-top: 40px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  }
+}
+.project2{
+  margin-top: 20px;
+  height: 500px;
+  .description2{
+    height: 470px;
+    h2 {
+      font-size: 50px;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 15px;
+      font-weight: 100;
+      margin-top: 17px;
+    }
+    .descrip {
+      padding-right: 30px !important;
+      font-size: 16px;
+      margin-top: 35px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+.projectImage2{
+  min-width: 50%;
+  height:500px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+}
+}
+.iphoneVid{
+  width: 100%;
+  height: 470px;
+}
+.box{
+  width: 100%;
+  height: 470px;
+}
+}
+@media screen and (max-width: 1450px) {
+  .iphoneVid{
+    width: 100%;
+    height: 460px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .iphoneVid{
+    width: 100%;
+    height: 435px;
+  }
+}
+@media screen and (max-width: 1315px) {
+  .iphoneVid{
+    width: 100%;
+    height: 390px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .project1{
+    margin-top: 20px;
+    height: 100%;
+    .description{
+      height: 360px;
+      h2 {
+        font-size: 50px;
+        margin-top: 0px;
+      }
+      p{
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: 17px;
+      }
+      .descrip {
+        font-size: 16px;
+        margin-top: 35px;
+        letter-spacing: 2px;
+      }
+      h5 {
+        margin-top: 40px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  }
+  .projectImage{
+    height: 100%;
+  }
+}
+.project2{
+  height: 100%;
+  .description2{
+    height:100%;
+    margin-top: 40px;
+    padding-top: 0px;
+    h2 {
+      font-size: 50px;
+    }
+    p{
+      font-size: 15px;
+      font-weight: 100;
+      margin-top: 17px;
+    }
+    .descrip {
+      font-size: 16px;
+      margin-top: 35px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+.projectImage2{
+  width: 100%;
+}
+.iphoneVid{
+  width: 20%;
+  height: 440px;
+}
+.box{
+  width: 100%;
+  height: 470px;
+}
+}
+}
+@media screen and (max-width: 1020px) {
+  .projectImage2{
+    .iphoneVid{
+      height: 410px;
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .project1{
+    margin-top: 20px;
+    height: 100%;
+    .description{
+      height: 370px;
+      margin-bottom: 20px;
+    }
+  }
+  .project2{
+    margin-top: 0px;
+    .projectImage2{
+      height: 390px;
+      .iphoneVid{
+        height: 330px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .project1{
+    margin-top: 20px;
+    height: 100%;
+    .description{
+      height: 370px;
+      margin-bottom: 15px;
+    }
+    .projectImage{
+      margin-bottom: 0px;
+
+    }
+  }
+  .project2{
+    margin-top: 0px;
+    padding-top: 0px;
+    .projectImage2{
+      height: 350px;
+      margin-top: 0px;
+      .box{
+        height: 100%;
+      }
+      .iphoneVid{
+        height: 265px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .project1{
+    margin-top: 10px;
+    height: 100%;
+    .description{
+      height: 340px;
+      h2 {
+        font-size: 40px;
+        margin-top: 0px;
+      }
+      p{
+        font-size: 12px;
+        font-weight: 100;
+        margin-top: 12px;
+      }
+      .descrip {
+        font-size: 14px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+      }
+      h5 {
+        margin-top: 20px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  }
+  .projectImage{
+    height: 100%;
+  }
+}
+.project2{
+  margin-top: 10px;
+  height: 100%;
+  .description2{
+    height: 270px;
+    h2 {
+      font-size: 40px;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 12px;
+      font-weight: 100;
+      margin-top: 12px;
+    }
+    .descrip {
+      font-size: 14px;
+      margin-top: 15px;
+      letter-spacing: 1px;
+    }
+    h5 {
+      margin-top: 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+.projectImage2{
+  height: 240px;
+  margin-top: 0px;
+  
+
+  .box{
+    max-height: 100%;
+
+  }
+  .iphoneVid{
+    max-height: 215px;
+    width: 150px;
+  }
+}
+}
+}
+@media screen and (max-width: 350px) {
+  .project1{
+    .description{
+      margin-bottom: 25px;
+    }
+  }
+  .project2{
+    margin-top: 10px;
+    height: 100%;
+    .description2{
+      height: 340px;
+      h2 {
+        font-size: 40px;
+        margin-top: 0px;
+      }
+      p{
+        font-size: 12px;
+        font-weight: 100;
+        margin-top: 12px;
+      }
+      .descrip {
+        font-size: 14px;
+        margin-top: 15px;
+        letter-spacing: 1px;
+      }
+      h5 {
+        margin-top: 20px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  }
+  .projectImage2{
+    height: 200px;
+    margin-top: 0px;
+    .box{
+      height: 100%;
+    }
+    .iphoneVid{
+      height: 160px;
+    }
+  }
+  }
+}
