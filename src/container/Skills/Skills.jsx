@@ -9,7 +9,6 @@ const Skills = () => {
   const [filterWork, setFilterWork] = useState([]);
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
-
   const data = [
     {
       name: "HTML",
@@ -92,11 +91,12 @@ const Skills = () => {
       tags: ['Developer Tools'],
     },
   ];
+  
 
   useEffect(() => {
     setSkills(data);
     setFilterWork(data);
-  }, []);
+  }, [data]);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
@@ -111,6 +111,9 @@ const Skills = () => {
         setFilterWork(skills.filter((skill) =>skill.tags.includes(item)));
       }
     }, 500);
+    if(item === null){
+      console.log('this one')
+    }
   };
 
   return (

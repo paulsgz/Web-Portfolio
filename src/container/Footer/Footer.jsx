@@ -7,10 +7,10 @@ import './Footer.scss';
 
 const Footer = () => {
     const [toSend, setToSend] = useState({
-    from_name: '',
-    to_name: '',
-    message: '',
-    reply_to: '',
+    from_name: "",
+    to_name: "",
+    message: "",
+    reply_to: "",
   });
 
   const handleChange = (e) => {

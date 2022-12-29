@@ -7,8 +7,10 @@ import { images } from '../../constants';
 import './Navbar.scss';
 
 const Navbar = () => {
+
   const [toggle, setToggle] = useState(false)
   let Link = Scroll.Link;
+
 
 const toggleHome = () => {
   scroll.scrollToTop();
@@ -17,9 +19,9 @@ const toggleHome = () => {
   return (
     <nav className='app__navbar'>
     <div className='app__navbar-logo'>
-      <a onClick={toggleHome}>
+      <button onClick={toggleHome} > 
       <img src={images.newLogo} alt="logo"  className='LogoPic'/>
-      </a>
+      </button>
 
     </div>
     <ul className='app__navbar-links'>
