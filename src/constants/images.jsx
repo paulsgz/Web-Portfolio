@@ -1,30 +1,30 @@
-import css from '../assets/css.png';
-import git from '../assets/git.png';
-import html from '../assets/html.png';
-import javascript from '../assets/javascript.png';
-import node from '../assets/node.png';
-import react from '../assets/react.png';
-import sass from '../assets/sass.png';
+import css from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/css_mk7oue.png';
+import git from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/git_xkwqrt.png';
+import html from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/html_esaapl.png';
+import javascript from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/javascript_uhihwz.png';
+import node from '.https://res.cloudinary.com/djhqargof/image/upload/v1672352471/node_qzczju.png';
+import react from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352472/react_xusziv.png';
+import sass from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352472/sass_nofcgz.png';
 
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import about01 from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/about01_dytifu.png';
+import about02 from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/about02_ajzqex.png';
+import about03 from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/about03_kkirqg.png';
+import about04 from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/about04_irhfp3.png';
 
 
-import API from '../assets/API2.png';
-import bootstrap from '../assets/bootstrap.png';
-import aboutMePic from '../assets/Business decisions-bro.png';
-import newLogo from '../assets/cps-logo.png';
-import developer from '../assets/developer.png';
-import ejs from '../assets/ejs.png';
-import express from '../assets/expressjs.png';
-import github from '../assets/github.png';
-import loadBro from '../assets/Load more-bro.png';
-import mongodb from '../assets/mongodb.png';
-import npm from '../assets/npm.png';
-import photoshop from '../assets/photoshop.png';
-import vscode from '../assets/vscode.png';
+import API from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/API2_vhiyyu.png';
+import bootstrap from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/bootstrap_y7uvmu.png';
+import aboutMePic from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/Business_decisions-bro_ucbyzf.png';
+import newLogo from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/cps-logo_prjdyx.png';
+import developer from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/developer_kutucw.png;
+import ejs from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/ejs_zwhcnq.png';
+import express from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/expressjs_cwyi3g.png';
+import github from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352470/github_wzhk6t.png';
+import loadBro from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/Load_more-bro_bhdaxs.png';
+import mongodb from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/mongodb_wo7nhg.png';
+import npm from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/npm_ebmwqv.png';
+import photoshop from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/photoshop_xpkm2c.png';
+import vscode from 'https://res.cloudinary.com/djhqargof/image/upload/v1672352472/vscode_xv0ptk.png';
 
 export default {
   css,
