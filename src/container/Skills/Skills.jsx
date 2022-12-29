@@ -45,11 +45,11 @@ const Skills = () => {
       icon: images.express,
       tags: ['Back-end'],
     },
-    // {
-    //   name: "BootStrap",
-    //   icon: images.bootstrap,
-    //   tags: ['Front-end'],
-    // },
+    {
+      name: "BootStrap",
+      icon: images.bootstrap,
+      tags: ['Front-end'],
+    },
     {
       name: "MongoDB",
       icon: images.mongodb,

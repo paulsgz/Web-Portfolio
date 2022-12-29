@@ -15,7 +15,7 @@ const Header = () => {
     <h1>Hi, I'm Paul</h1>
     <p>I'm a Software and Web Developer.</p>
     </div>
-  {/* <img src={images.aboutMePic} className="aboutMePic img-fluid" alt='About Me'/> */}
+  <img src={images.aboutMePic} className="aboutMePic img-fluid" alt='About Me'/>
   <div className='LinksToAbout'>
     <Link
       to={'about'}
@@ -33,7 +33,7 @@ const Header = () => {
   </div>
   </div>
   <div className='2ndGallery'>
-    {/* <img src={images.loadBro} className="SeeProjectPic img-fluid" alt='See Projects'/> */}
+    <img src={images.loadBro} className="SeeProjectPic img-fluid" alt='See Projects'/>
     <div className='Intro2'>
     <h4>I have a passion for building and creating Web Applications.</h4>
     </div>
