@@ -13,14 +13,14 @@ import about04 from '../assets/about04.png';
 
 
 import API from '../assets/API2.png';
-import bootstrap from '../assets/bootstrap.svg';
-import aboutMePic from '../assets/Business decisions-bro.svg';
+// import bootstrap from '../assets/bootstrap.svg';
+// import aboutMePic from '../assets/Business decisions-bro.svg';
 import newLogo from '../assets/cps-logo.png';
 import developer from '../assets/developer.png';
 import ejs from '../assets/ejs.png';
 import express from '../assets/expressjs.png';
 import github from '../assets/github.png';
-import loadBro from '../assets/Load more-bro.svg';
+// import loadBro from '../assets/Load more-bro.svg';
 import mongodb from '../assets/mongodb.png';
 import npm from '../assets/npm.png';
 import photoshop from '../assets/photoshop.png';
@@ -39,7 +39,7 @@ export default {
   about03,
   about04,
   newLogo,
-  bootstrap,
+  // bootstrap,
   express,
   mongodb,
   ejs,
@@ -49,6 +49,6 @@ export default {
   github,
   vscode,
   photoshop,
-  loadBro,
-  aboutMePic
+  // loadBro,
+  // aboutMePic
 };
