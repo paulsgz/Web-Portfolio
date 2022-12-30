@@ -1,12 +1,4 @@
-@font-face { font-family: 'Unbounded', cursive;
-  src: url('./fonts/Unbounded-SemiBold.ttf'); } 
-@font-face { font-family: 'Roboto', sans-serif;
-  src: url('./fonts/Roboto-Light.ttf'); } 
-@font-face { font-family: 'Roboto', sans-serif;
-  src: url('./fonts/Roboto-Black.ttf'); } 
-@font-face { font-family: 'Roboto Condensed', sans-serif;
-  src: url('./fonts/RobotoCondensed-Light.ttf'); } 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;400&family=Unbounded:wght@600&display=swap'); 
 .app {
   background-color: var(--primary-color);
   font-family: var(--font-base);

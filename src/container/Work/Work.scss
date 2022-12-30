@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;400&family=Unbounded:wght@600&display=swap'); 
+
 .app__works {
     flex: 1;
     max-width: 100%;
@@ -59,7 +61,8 @@
   padding-top: 40px;
   color: black;
   h2 {
-    font-family: 'Unbounded', cursive ;
+    font-family: 'Unbounded';
+    font-weight: 600;
     font-size: 70px;
     cursor: pointer;
     color: black;
@@ -114,13 +117,14 @@
   color: black;
   z-index: 1;
   h2 {
-    font-family: 'Unbounded', sans-serif !important;
+    font-family: 'Unbounded';
+    font-weight: 600;
     font-size: 70px;
     cursor: pointer;
     padding-left: 30px;
   }
   p{
-    font-family: 'Condensed', sans-serif !important;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     font-weight:lighter;
      margin-top: 30px;
