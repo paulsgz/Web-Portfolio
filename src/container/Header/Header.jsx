@@ -1,7 +1,6 @@
 import React from 'react';
 import * as Scroll from 'react-scroll';
 import { images } from '../../constants';
-import resume from '../../files/ChristianSeguiza.pdf';
 import './Header.scss';
 
 const Header = () => {
@@ -26,8 +25,8 @@ const Header = () => {
       activeClass='active'
       className='btn btn-outline-primary'
     >More About me</Link>
-    <a className="btn btn-primary" role="button" href={resume}
-   download="Christian Seguiza">
+    <a className="btn btn-primary" role="button" href='ChristianSeguiza.pdf'
+   download="Christian Seguiza.pdf">
   Resume
 </a>
   </div>
