@@ -120,6 +120,7 @@
     }
   }
   @media screen and (max-width:870px) {
+
     .Intro {
       h1{
         font-size: 60px;
@@ -138,6 +139,22 @@
   }
 }
 @media screen and (max-width:670px) {
+  .home{
+    --z: 0px;  /* control the zig-zag  */
+    --s: 70vh; /* control the size */
+    --g: 0px;   /* control the gap */
+    
+    display: grid;
+    gap: var(--g);
+    // width: calc(2*var(--s) + var(--g));
+    width: 100%;
+    grid-auto-flow: column;
+    z-index: 9;
+  }
+  .LinksToAbout{
+    flex-direction: column;
+
+  }
   .Intro {
     h1{
       font-size: 40px;

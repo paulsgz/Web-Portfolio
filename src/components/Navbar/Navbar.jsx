@@ -18,12 +18,12 @@ const toggleHome = () => {
 
   return (
     <nav className='app__navbar'>
-    <div className='app__navbar-logo'>
-      <button onClick={toggleHome} > 
+      <button onClick={toggleHome} className="LogoButton"> 
       <img src={images.newLogo} alt="logo"  className='LogoPic'/>
       </button>
-
-    </div>
+    {/* <div className='app__navbar-logo'>
+      
+    </div> */}
     <ul className='app__navbar-links'>
         {['home','about','project','skills','contact'].map((item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
