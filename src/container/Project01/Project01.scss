@@ -95,6 +95,18 @@
          padding-top:60px ;
     }
 }
+@media screen and (max-height: 800px) { 
+    .NewsfeedVid {
+        margin-top: 50px;
+        height: 650px;
+    }
+}
+@media screen and (max-height: 800px) { 
+    .NewsfeedVid {
+        margin-top: 120px;
+        height: 650px;
+    }
+}
 @media screen and (max-width: 600px) { 
     .ProjectNav {
         h4 {
