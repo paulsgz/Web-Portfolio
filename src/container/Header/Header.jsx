@@ -57,7 +57,7 @@ const Header = () => {
   <p>Hi, my name is</p>
   <h1>Christian Paul Seguiza</h1>
   <h2>I'm a Full Stack Developer.</h2>
-  <p className='Description'>I'am a developer specialising in creating innovative softwares and applications.<br></br> Thank you for visiting my portfolion and I hope you enjoy exploring my work!</p>
+  <p className='Description'>I am a developer specializing in creating innovative software and applications.<br></br> Thank you for visiting my portfolio and I hope you enjoy exploring my work!</p>
   <Link
       to={'project'}
       smooth={true}
