@@ -44,13 +44,13 @@ const Footer = () => {
     <div className='col-sm  Number'>
     <a href="tel:6475541231">
       <BsPhoneFill size={30}/>
-      +1(647)554-1231
+      Give me a Call
       </a>
     </div>
     <div className='col-sm  EmailAddress'>
     <a href="mailto:christian.seguiza@yahoo.com">
       <MdEmail size={30} className="emailPic"/>
-      <span>christian.seguiza@yahoo.com</span>
+      <span>Email me</span>
       </a>
      
     </div>

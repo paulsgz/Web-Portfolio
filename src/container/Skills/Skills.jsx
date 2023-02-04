@@ -111,14 +111,11 @@ const Skills = () => {
         setFilterWork(skills.filter((skill) =>skill.tags.includes(item)));
       }
     }, 500);
-    if(item === null){
-      console.log('this one')
-    }
   };
 
   return (
     <>
-      <h2>My Skills</h2>
+      <h2 className='SkillsH2'>My Skills</h2>
       <div className="app__work-filter">
       {['Front-end', 'Back-end', 'Developer Tools','All'].map((item, index) => (
         <div

@@ -9,11 +9,11 @@
     margin-top: 0px;
     padding-bottom:0px ;
     margin-bottom: 0px;
-    background: rgba(255, 255, 255, 0.25);
+    // background: rgba(255, 255, 255, 0.25);
     // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    // border: 1px solid rgba(255, 255, 255, 0.18);
     position: fixed;
     z-index: 4;
     padding-top: 5px;
@@ -32,11 +32,13 @@
       margin: 5px;
       height: 100%;
       cursor: pointer;
+
     .LogoPic {
       height:100%;
       display: flex;
       cursor: pointer;
       margin-left: 5px;
+      padding: 5px;
       @media screen and (min-width: 2000px) {
         width: 170px;
         height: 36px;
@@ -47,16 +49,18 @@
   .app__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right:110px ;
+    justify-content: right;
+    align-content: center;
     list-style: none;
+    padding-right: 20px;
+    z-index: 9;
     li {
       margin: 0 1rem;
       cursor: pointer;
-      color: black;
+      color: var(--secondary-color);
       flex-direction: column;
       font-weight: bolder;
+      
   
       div {
         width: 50px;
@@ -64,15 +68,16 @@
         background: transparent;
         border-radius: 50%;
         margin-bottom: 5px;
+        
       }
   
       a {
         color: var(--gray-color);
         text-decoration: none;
         flex-direction: column;
-
+        
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 600;
   
         transition: all 0.3s ease-in-out;
   
@@ -81,11 +86,10 @@
 
         }
         &.active {
-          color: var(--secondary-color);
+          color: rgb(87, 85, 85);
           font-weight: bolder;
         }
-
-      }
+    }
   
       &:hover {
         div {

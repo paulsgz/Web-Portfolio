@@ -32,7 +32,6 @@ const About = () => {
         <img src={images.developer} className="developer img-fluid" alt='developer' />
         </div>
       </div>
-        <h2 className='head-text'>while(!successful){"{"}  <span>{"tryAgain();"}</span>  {"} improve();"}</h2>
         <div className='app__profiles'>
           {abouts.map((about, index) => (
             <motion.div
