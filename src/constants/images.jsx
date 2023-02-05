@@ -26,6 +26,9 @@ const npm = 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/npm_e
 const photoshop = 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/photoshop_xpkm2c.png';
 const vscode = 'https://res.cloudinary.com/djhqargof/image/upload/v1672352472/vscode_xv0ptk.png';
 
+
+
+
 export default {
   css,
   git,

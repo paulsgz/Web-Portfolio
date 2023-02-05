@@ -261,6 +261,47 @@
   width: 100%;
   height: 550px;
 }
+
+.project3{
+  .description3{
+    h2 {
+      font-size: 55px !important;
+    }
+    p{
+      font-size: 16px;
+      font-weight: 100;
+      margin-top: 27px;
+    }
+    .descrip3 {
+      padding-right: 70px !important;
+      font-size: 18px !important;
+      margin-top: 55px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+}
+.project4 {
+  .projectImage4 {
+    min-width: 50%;
+    height:850px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+  }
+  .HomeVideo4 {
+    width: 65%;
+  }
+}
 }
 @media screen and (max-width: 1600px) {
   .iphoneVid{
@@ -339,6 +380,79 @@
   width: 100%;
   height: 470px;
 }
+
+.project3{
+  margin-top: 20px;
+  height: 460px;
+  .description3{
+    h2 {
+      font-size: 50px !important;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 15px;
+      font-weight: 100;
+      margin-top: 17px;
+    }
+    .descrip3 {
+      padding-right: 30px !important;
+      font-size: 14px;
+      margin-top: 35px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+}
+
+
+.project4 {
+  .projectImage4 {
+    min-width: 50%;
+    height:850px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+  }
+  .HomeVideo4 {
+    width: 85% !important;
+  }
+}
+
+.project5{
+  margin-top: 20px;
+  height: 460px;
+  .description5{
+    h2 {
+      font-size: 50px !important;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 15px;
+      font-weight: 100;
+      margin-top: 17px;
+    }
+    .descrip5 {
+      padding-right: 30px !important;
+      font-size: 14px;
+      margin-top: 35px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+}
 }
 @media screen and (max-width: 1450px) {
   .iphoneVid{
@@ -413,6 +527,76 @@
       cursor: pointer;
     }
 }
+
+.project3{
+  margin-top: 20px;
+  height: 100%;
+  .description3{
+    height: 360px;
+    h2 {
+      font-size: 50px;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 15px ;
+      font-weight: 100;
+      margin-top: 17px;
+    }
+    .descrip3 {
+      font-size: 16px !important;
+      margin-top: 35px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+}
+.description4{
+  height: 360px;
+  h2 {
+    font-size: 50px !important;
+    margin-top: 0px;
+  }
+  p{
+    font-size: 15px ;
+    font-weight: 100;
+    margin-top: 17px;
+  }
+  .descrip4 {
+    font-size: 16px !important;
+    margin-top: 35px;
+    letter-spacing: 2px;
+  }
+  h5 {
+    margin-top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.project4 {
+
+  .projectImage4 {
+    min-width: 50%;
+    height:850px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .HomeVideo4 {
+    width: 50% !important;
+  }
+}
+.projectImage{
+  height: 100%;
+}
+}
 .projectImage2{
   width: 100%;
 }
@@ -424,8 +608,62 @@
   width: 100%;
   height: 470px;
 }
+
+
+.project5{
+  margin-top: 20px;
+  height: 100%;
+  .description5{
+    height: 360px;
+    h2 {
+      font-size: 50px;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 15px ;
+      font-weight: 100;
+      margin-top: 17px;
+    }
+    .descrip5 {
+      font-size: 16px !important;
+      margin-top: 35px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
 }
 }
+.project6{
+  margin-top: 20px;
+  height: 100%;
+  .description6{
+    height: 360px;
+    h2 {
+      font-size: 50px;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 15px ;
+      font-weight: 100;
+      margin-top: 17px;
+    }
+    .descrip6 {
+      font-size: 16px !important;
+      margin-top: 35px;
+      letter-spacing: 2px;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+}
+}
+
 @media screen and (max-width: 1020px) {
   .projectImage2{
     .iphoneVid{
@@ -451,7 +689,92 @@
       }
     }
   }
+  .project3{
+    margin-top: 10px;
+    height: 100%;
+    .description3{
+      height: 370px;
+      margin-bottom: 0px;
+    }
+  }
+
+  .project4 {
+    .description4{
+      height: 360px;
+      h2 {
+        font-size: 50px !important;
+        margin-top: 0px;
+      }
+      p{
+        font-size: 15px ;
+        font-weight: 100;
+        margin-top: 17px;
+      }
+      .descrip4 {
+        font-size: 16px !important;
+        margin-top: 35px;
+        letter-spacing: 2px;
+      }
+      h5 {
+        margin-top: 40px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  }
+    .projectImage4 {
+      min-width: 50%;
+      height:650px !important;
+      margin: 0px;
+      padding: 0px;
+      z-index: 1;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin-top: 0px;
+    }
+    .HomeVideo4 {
+      width: 65%;
+    }
+  }
+
+
+  .project5{
+    margin-top: 10px;
+    height: 100%;
+    .description5{
+      height: 370px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .project6 {
+    .description6{
+      height: 360px;
+      h2 {
+        font-size: 50px !important;
+        margin-top: 0px;
+      }
+      p{
+        font-size: 15px ;
+        font-weight: 100;
+        margin-top: 17px;
+      }
+      .descrip6 {
+        font-size: 16px !important;
+        margin-top: 35px;
+        letter-spacing: 2px;
+      }
+      h5 {
+        margin-top: 40px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+  }
 }
+
+}
+
 @media screen and (max-width: 700px) {
   .project1{
     margin-top: 20px;
@@ -462,7 +785,6 @@
     }
     .projectImage{
       margin-bottom: 0px;
-
     }
   }
   .project2{
@@ -477,6 +799,51 @@
       .iphoneVid{
         height: 265px;
       }
+    }
+  }
+  .project3{
+    margin-top: 20px;
+    height: 100%;
+    .description3{
+      height: 200px;
+      margin-bottom: 0px;
+    }
+    .projectImage3{
+      margin-bottom: 0px;
+      max-height: 300px;
+    }
+  }
+  .project5{
+    margin-top: 20px;
+    height: 100%;
+    .description5{
+      height: 200px;
+      margin-bottom: 0px;
+    }
+    .projectImage5{
+      margin-bottom: 0px;
+      max-height: 300px;
+    }
+  }
+  .project6{
+    margin-top: 20px;
+    height: 100%;
+    .projectImage6 {
+      min-width: 50%;
+      height:700px;
+      margin: 0px;
+      padding: 0px;
+      z-index: 1;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    } 
+    .HomeVideo6 {
+      margin-bottom:20px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0px;
+      cursor: pointer;
     }
   }
 }
@@ -550,6 +917,67 @@
   }
 }
 }
+.project3{
+  margin-top: 10px;
+  height: 100%;
+  .description3{
+    height: 340px;
+    h2 {
+      font-size: 40px !important ;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 12px;
+      font-weight: 100;
+      margin-top: 12px;
+    }
+    .descrip3 {
+      font-size: 14px;
+      margin-top: 15px;
+      letter-spacing: 1px;
+     
+    }
+    h5 {
+      margin-top: 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+.projectImage3{
+  height: 100%;
+}
+}
+
+.project5{
+  margin-top: 10px;
+  height: 100%;
+  .description5{
+    height: 340px;
+    h2 {
+      font-size: 40px !important ;
+      margin-top: 0px;
+    }
+    p{
+      font-size: 12px;
+      font-weight: 100;
+      margin-top: 12px;
+    }
+    .descrip5 {
+      font-size: 14px;
+      margin-top: 15px;
+      letter-spacing: 1px;
+     
+    }
+    h5 {
+      margin-top: 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+}
+.projectImage5{
+  height: 100%;
+}
+}
 }
 @media screen and (max-width: 350px) {
   .project1{
@@ -592,5 +1020,15 @@
       height: 160px;
     }
   }
+  }
+  .project3{
+    .description3{
+      margin-bottom: 25px;
+    }
+  }
+  .project5{
+    .description5{
+      margin-bottom: 25px;
+    }
   }
 }

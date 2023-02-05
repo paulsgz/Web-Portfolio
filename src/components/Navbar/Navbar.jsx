@@ -25,7 +25,7 @@ const toggleHome = () => {
       
     </div> */}
     <ul className='app__navbar-links'>
-        {['home','about','project','skills','contact'].map((item) => (
+        {['home','about','projects','skills','contact'].map((item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
                 <Link
                 to={item}
@@ -50,7 +50,7 @@ const toggleHome = () => {
               >
                 <HiX onClick={() => setToggle(false)}/>
                 <ul>
-                    {['home','about','project','skills','contact'].map((item) => (
+                    {['home','about','projects','skills','contact'].map((item) => (
                 <li key={item}>
                  <Link
                     to={item}
