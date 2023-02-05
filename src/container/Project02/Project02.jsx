@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 import { IoIosArrowBack } from 'react-icons/io';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Project02.scss';
 
 const Project02 = () => {
@@ -24,12 +25,12 @@ const Project02 = () => {
         See More Projects
       </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item href="/project01" class="active">Newsfeed</Dropdown.Item>
-        <Dropdown.Item href="/project02" class="active">Space Project</Dropdown.Item>
-        <Dropdown.Item href="/project03" class="active">Pop the Bubbles</Dropdown.Item>
-        <Dropdown.Item href="/project04" class="active">Space Shooter</Dropdown.Item>
-        <Dropdown.Item href="/project05" class="active">Flappy Bird</Dropdown.Item>
-        <Dropdown.Item href="/project06" class="active">Pac-Man</Dropdown.Item>
+        <Dropdown.Item> <Link to={"/project01"} className="Links">Newsfeed</Link></Dropdown.Item>
+        <Dropdown.Item> <Link to={"/project02"} className="Links">Space Project</Link></Dropdown.Item>
+        <Dropdown.Item> <Link to={"/project03"} className="Links">Pop the Bubbles</Link></Dropdown.Item>
+        <Dropdown.Item> <Link to={"/project04"} className="Links">Space Shooter</Link></Dropdown.Item>
+        <Dropdown.Item> <Link to={"/project05"} className="Links">Flappy Bird</Link></Dropdown.Item>
+        <Dropdown.Item> <Link to={"/project06"} className="Links">Pac-Man</Link></Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
     </div> 
