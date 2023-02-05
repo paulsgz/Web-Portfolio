@@ -24,12 +24,12 @@ const Project02 = () => {
         See More Projects
       </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item href="/project01">Newsfeed</Dropdown.Item>
-        <Dropdown.Item href="/project02">Space Project</Dropdown.Item>
-        <Dropdown.Item href="/project03">Pop the Bubbles</Dropdown.Item>
-        <Dropdown.Item href="/project04">Space Shooter</Dropdown.Item>
-        <Dropdown.Item href="/project05">Flappy Bird</Dropdown.Item>
-        <Dropdown.Item href="/project06">Pac-Man</Dropdown.Item>
+        <Dropdown.Item href="/project01" class="active">Newsfeed</Dropdown.Item>
+        <Dropdown.Item href="/project02" class="active">Space Project</Dropdown.Item>
+        <Dropdown.Item href="/project03" class="active">Pop the Bubbles</Dropdown.Item>
+        <Dropdown.Item href="/project04" class="active">Space Shooter</Dropdown.Item>
+        <Dropdown.Item href="/project05" class="active">Flappy Bird</Dropdown.Item>
+        <Dropdown.Item href="/project06" class="active">Pac-Man</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
     </div> 
