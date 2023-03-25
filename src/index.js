@@ -11,11 +11,25 @@ import ShowPage3 from './ShowPage3.js';
 import ShowPage4 from './ShowPage4.js';
 import ShowPage5 from './ShowPage5.js';
 import ShowPage6 from './ShowPage6.js';
+import LoadingScreen from "./container/LoadingScreen/LoadingScreen.js"
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
 
-  <React.StrictMode>
-    <Router>
+function Index() {
+  const [isLoading, setIsLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
+
+  return (
+    <React.StrictMode>
+      {isLoading ? (
+        <LoadingScreen />
+      ) : (
+        <>
+          <Router>
     <Routes>
     <Route index element={<App />} />
     <Route path="/project01" element={<ShowPage />} />
@@ -26,8 +40,12 @@ root.render(
     <Route path="/project06" element={<ShowPage6 />} />
      </Routes>
     </Router>
-  </React.StrictMode>
-);
+        </>
+      )}
+    </React.StrictMode>
+  );
+}
+root.render(<Index />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
