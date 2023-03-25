@@ -13,6 +13,6 @@
     opacity: 0;
     transition: opacity 1s ease-out, filter 1s ease-out;
     filter: blur(10px);
-    max-width: 200px; 
+    max-width: 150px; 
   }
   
