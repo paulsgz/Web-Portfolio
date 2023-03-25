@@ -1,6 +1,5 @@
 import React from 'react';
 import './LoadingScreen.css';
-import logo from "../../images/logo.png"; // Replace with your own logo image file
 
 function LoadingScreen() {
     React.useEffect(() => {
@@ -23,7 +22,7 @@ function LoadingScreen() {
   
     return (
       <div className="loading-screen">
-        <img src={logo} alt="logo" className="logo" />
+        <img src="https://res.cloudinary.com/djhqargof/image/upload/v1675539397/CPSlogo2_htqw6o.png" alt="logo" className="logo" />
       </div>
     );
   }

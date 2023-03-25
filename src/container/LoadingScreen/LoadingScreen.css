@@ -6,7 +6,7 @@
     align-items: center;
     background-color: black;
     opacity: 1;
-    transition: opacity 2s ease-out; /* Change the duration to 2s */
+    transition: opacity 1s ease-out; /* Change the duration to 2s */
   }
   
   .logo {

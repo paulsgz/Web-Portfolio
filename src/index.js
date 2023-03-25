@@ -12,6 +12,7 @@ import ShowPage4 from './ShowPage4.js';
 import ShowPage5 from './ShowPage5.js';
 import ShowPage6 from './ShowPage6.js';
 import LoadingScreen from "./container/LoadingScreen/LoadingScreen.js"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Index() {

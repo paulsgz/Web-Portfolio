@@ -25,11 +25,12 @@ const mongodb = 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/m
 const npm = 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/npm_ebmwqv.png';
 const photoshop = 'https://res.cloudinary.com/djhqargof/image/upload/v1672352471/photoshop_xpkm2c.png';
 const vscode = 'https://res.cloudinary.com/djhqargof/image/upload/v1672352472/vscode_xv0ptk.png';
-
+const LSlogo = 'https://res.cloudinary.com/djhqargof/image/upload/v1675539397/CPSlogo2_htqw6o.png';
 
 
 
 export default {
+  LSlogo,
   css,
   git,
   html,
