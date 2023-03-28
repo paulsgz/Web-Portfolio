@@ -6,9 +6,9 @@ import { FiExternalLink } from "react-icons/fi";
 import { IoIosArrowBack } from 'react-icons/io';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import './Project02.scss';
+import './Project07.scss';
 
-const Project02 = () => {
+const Project07 = () => {
     const navigate = useNavigate();
     const backHome = async()=> {
         navigate('/')
@@ -19,7 +19,7 @@ const Project02 = () => {
     <div className='ProjectContainer'>
     <div className='ProjectNav'>
     <button onClick={backHome} className="BackToHome"><IoIosArrowBack size={18} style={{ marginBottom:'4px', marginRight:'4px' }}/>Back To Home</button>
-    <h4 className='projectTitle'>Space Project</h4>
+    <h4 className='projectTitle'>Project Management Tool</h4>
     <Dropdown className='dropdown'>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
         See More Projects
@@ -37,27 +37,18 @@ const Project02 = () => {
     </div> 
     <div className='container'>
         <div className='row project01'>
-        {/* <div className='col-xl-6 projectVideo'>
-        <video src={"https://res.cloudinary.com/djhqargof/video/upload/v1672341296/newsVideo_qigrgn.mov"}
-        type="video/mp4"
-        loop={true}
-        controls={false}
-        muted
-        autoPlay={true}
-        className='NewsfeedVid'
-        />
-        </div> */}
         <div className='col-xl-12 projectDescription'>
           <div className='WebTitle'>
             <h5>Website Title</h5>
-            <h2>Space Project</h2>
+            <h2>Project Management Tool</h2>
             </div>
           <div className='WebDescription'>
           <h5>Description</h5>
-          <p>Space Project is web application for sharing and exploring different astronomical experiences. Users can view different images from different people about the sky, space, galaxy and anything related to astronomy. Users can also share their own experiences by logging in using their google account as a way to authenticate and verify the owner of the image or post.</p></div>
+          <p>Project management tool is a ticketing system that allows engineers and developers to keep track of everything that must be done to finish a software or project.</p></div>
           <div className='WebObjective'>
             <h5>Objective</h5>
-            <p>To create a web application that can do CRUD operations using NODE.js and Express.js backend together with React front-end interface.</p></div>
+            <p>Conceptualized and executed a ticketing system that generated and distributed tasks to software workers using 
+React.js; improved task completion rate by 35% and efficiency by 30%</p></div>
           <div className='WebTechnologies'>
             <h5>Technologies Used</h5>
             <p><ul>
@@ -69,11 +60,11 @@ const Project02 = () => {
               </ul></p></div>
           <div className='WebOYear'>
             <h5>Year</h5>
-            <p>2022</p></div>
+            <p>2023</p></div>
            <div className='links'> 
             <p>
-            <ExternalLink className="GoTo" href="https://space-project31.herokuapp.com/"><FiExternalLink size={25} style={{ marginRight:'10px' }}/></ExternalLink>
-          <ExternalLink className="Github" href="https://github.com/paulsgz/Space-Project.git">< FaGithub size={22} /></ExternalLink>
+            <ExternalLink className="GoTo" href="https://pmt-pro.onrender.com/"><FiExternalLink size={25} style={{ marginRight:'10px' }}/></ExternalLink>
+          <ExternalLink className="Github" href="https://github.com/paulsgz/ProjectManagementTool.git">< FaGithub size={22} /></ExternalLink>
           </p>
         </div>
         </div>
@@ -84,4 +75,4 @@ const Project02 = () => {
 )
 };
 
-export default Project02;
+export default Project07;

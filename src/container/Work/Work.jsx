@@ -15,6 +15,43 @@ const Work = () => {
     <>
     <motion.div
       animate={animateCard}
+      transition={{ duration: 0.8, delayChildren: 0.5 }}
+      className="app__work-portfolio"
+    >
+    <div className='project2'>
+      <div className='row'>
+      <div className='col-xl-7 projectImage' >
+        <video src={"https://res.cloudinary.com/djhqargof/video/upload/v1679961420/PMTpro_kbqbck.mov"}
+        type="video/mp4"
+        loop={true}
+        controls={false}
+        muted
+        autoPlay={true}
+        className='HomeVideo img-fluid'
+        />
+        </div>
+        <div className='col-xl-5 description2' >
+          <h2>Project Management Tool</h2>
+          <p>
+            MERN-stack Ticketing System
+          </p>
+          <p className='descrip'>
+          Engineered an end-to-end project management tool using React.js, enabling software engineers to track progress 
+from 'to do' to 'finished'.
+          </p>
+          <h5><Link to={'./project07'} className="SeeMore">See more details   <BsFillArrowRightCircleFill className="arrow" size={18} style={{ marginBottom:'4px' }}/></Link></h5>
+          <p>
+          <ExternalLink className="GoTo" href="https://pmt-pro.onrender.com/"><FiExternalLink size={25} style={{ marginRight:'10px' }}/></ExternalLink>
+          <ExternalLink className="Github" href="https://github.com/paulsgz/ProjectManagementTool.git">< FaGithub size={22} /></ExternalLink>
+          </p>
+        </div>
+      </div>
+    </div>
+    </motion.div>
+    <hr className='newline'></hr>
+
+    <motion.div
+      animate={animateCard}
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__work-portfolio"
     >

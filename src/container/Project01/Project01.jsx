@@ -31,6 +31,7 @@ const Project01 = () => {
         <Dropdown.Item> <Link to={"/project04"} className="Links">Space Shooter</Link></Dropdown.Item>
         <Dropdown.Item> <Link to={"/project05"} className="Links">Flappy Bird</Link></Dropdown.Item>
         <Dropdown.Item> <Link to={"/project06"} className="Links">Pac-Man</Link></Dropdown.Item>
+        <Dropdown.Item> <Link to={"/project07"} className="Links">PMT Pro</Link></Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
     </div> 

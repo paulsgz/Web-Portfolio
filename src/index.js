@@ -11,6 +11,7 @@ import ShowPage3 from './ShowPage3.js';
 import ShowPage4 from './ShowPage4.js';
 import ShowPage5 from './ShowPage5.js';
 import ShowPage6 from './ShowPage6.js';
+import ShowPage7 from './ShowPage7.js';
 import LoadingScreen from "./container/LoadingScreen/LoadingScreen.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,6 +40,7 @@ function Index() {
     <Route path="/project04" element={<ShowPage4 />} />
     <Route path="/project05" element={<ShowPage5 />} />
     <Route path="/project06" element={<ShowPage6 />} />
+    <Route path="/project07" element={<ShowPage7 />} />
      </Routes>
     </Router>
         </>
