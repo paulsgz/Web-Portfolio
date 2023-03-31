@@ -19,7 +19,7 @@ const About = () => {
         <div className='col-xl-6 paragraph'>
         <div className='aboutmeParagraph'>
         <h3 className='about text'>About me<hr></hr></h3>
-        <p>Hi there! My name is Paul, and <span>I am a third year Computer Science student at York University.</span>
+        <p>Hi there! My name is Paul, and <span>I am a Computer Science student at York University.</span>
           I am currently studying <span>full-stack development</span>, and I am excited to be learning all about the latest technologies
           and techniques in this field. </p>
           <p> I have always been passionate about technology, and I am eager to apply my skills and knowledge
@@ -42,7 +42,7 @@ const About = () => {
             key={about.title + index}
           >
             <img src={about.imgUrl} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
+            <h2 className="bold-text" style={{ marginTop: 15 }}>{about.title}</h2>
             <p className="p-text" style={{ marginTop: 10 }}>{about.description}</p>
           </motion.div>
           ))}
