@@ -102,7 +102,9 @@
       display: none;
     }
   }
-  
+  .blogs {
+    color: var(--gray-color) !important;
+  }
   .app__navbar-menu {
     width: 35px;
     height: 35px;
