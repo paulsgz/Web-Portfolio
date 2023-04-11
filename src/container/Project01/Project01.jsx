@@ -72,7 +72,7 @@ const Project01 = () => {
             <p>2022</p></div>
            <div className='links'> 
             <p>
-          <ExternalLink className="GoTo" href="https://newsfeed-cps.herokuapp.com/"><FiExternalLink size={25} style={{ marginRight:'10px' }}/></ExternalLink>
+          <ExternalLink className="GoTo" href="https://newsfeed-cps.onrender.com/"><FiExternalLink size={25} style={{ marginRight:'10px' }}/></ExternalLink>
           <ExternalLink className="Github" href="https://github.com/paulsgz/newsfeed-cps.git">< FaGithub size={22} /></ExternalLink>
           </p>
         </div>
