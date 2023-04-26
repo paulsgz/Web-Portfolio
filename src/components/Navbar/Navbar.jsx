@@ -39,7 +39,7 @@ const toggleHome = () => {
             </li>
         ))}
       <li className="app__flex p-text" key='blogs-link'>
-      <a href='https://paulseguiza.wordpress.com/' target='_blank' className='blogs' rel='noopener noreferrer'>blogs</a>
+      <a href='https://starklyfe.com/' target='_blank' className='blogs' rel='noopener noreferrer'>blogs</a>
       <div />
       </li> 
     </ul>
@@ -68,7 +68,7 @@ const toggleHome = () => {
                 </li>
             ))}
             <li>
-               <a href='https://paulseguiza.wordpress.com/' target='_blank' rel='noopener noreferrer' onClick={() => setToggle(false)}>blogs</a>
+               <a href='https://starklyfe.com/' target='_blank' rel='noopener noreferrer' onClick={() => setToggle(false)}>blogs</a>
             </li>
             </ul>
               </motion.div>
