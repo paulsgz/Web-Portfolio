@@ -27,10 +27,6 @@ const Header = () => {
       activeClass='active'
       className='btn btn-outline-primary projectLink'
     >View Work</Link>
-   <a className="btn btn-primary projectLink" role="button" href='ChristianSeguiza.pdf'
-   download="Christian Seguiza.pdf">
-  Resume
-</a>
 </div>
 </div>
 </>
