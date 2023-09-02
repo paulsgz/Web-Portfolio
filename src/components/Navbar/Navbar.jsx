@@ -63,9 +63,6 @@ const toggleHome = () => {
                     >{item}</Link>
                 </li>
             ))}
-            <li>
-               <a href='https://starklyfe.com/' target='_blank' rel='noopener noreferrer' onClick={() => setToggle(false)}>blogs</a>
-            </li>
             </ul>
               </motion.div>
             )
