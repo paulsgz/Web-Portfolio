@@ -38,10 +38,6 @@ const toggleHome = () => {
                 <div />
             </li>
         ))}
-      <li className="app__flex p-text" key='blogs-link'>
-      <a href='https://starklyfe.com/' target='_blank' className='blogs' rel='noopener noreferrer'>blogs</a>
-      <div />
-      </li> 
     </ul>
     <div className='app__navbar-menu'>
           <HiMenuAlt4 onClick={()=> setToggle(true)}/>
